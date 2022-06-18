@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="/"><img src="static/k.jpg" alt="logo" width="50px" height="50px"></a>
+            </div>
+            <div class="navi">
+                <ul class="navibar">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="thought">
+            <p><b>“The body achieves what the mind believes.”</b></p>
+        </div>
+        <main>
+            <div id="c1" class="contact1">
+                <div class="contact">
+                    <h1>Address & basic imformation</h1>
+                    <p>Housing Board Phase - 1 & 2
+                        Himuda Complex, Baddi (173205)</p>
+                    <p>889492326</p>
+                    <p>musclemania7@gmail.com</p>
+                </div>
+                <div class="contact2">
+                    <h2>Our social media handles</h2>
+                    <a href="https://www.instagram.com/muscle.mania.gym/"><img src="static/OIP.jpg" width="55px"
+                            height="55px"></a>
+                    <a href="kmslam" id="c2"><img src="static/OIP2.jpg" width="55px" height="55px"></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="contact3">
+                <h2>Get in touch:-</h2>
+                <form action="/contact.html" method="post" id="contact">
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <input type="text" name="age" id="age" placeholder="Enter your age">
+                    <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+                    <input type="number" name="contact" id="contact" placeholder="Enter your contact no">
+                    <input name="address" id="mail" placeholder="Enter your Email">
+                    <textarea name="more" id="more" cols="30" rows="10" placeholder="Type your message"></textarea>
+                    <button class="btn" type="submit" onclick="myfunction">Submit</button>
+                </form>
+            </div>
+        </footer>
+    </header>
+</body>
+<script src="app.js"></script>
+</html>
