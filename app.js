@@ -37,7 +37,7 @@ app.post('/contact.html', (req, res) => {
         service: 'gmail',
         auth: {
             user: 'anmolgaur26@gmail.com',
-            pass: 'namiislove'
+            pass: 'namiislove7'
         },
         tls: {
             rejectUnauthorized:false
